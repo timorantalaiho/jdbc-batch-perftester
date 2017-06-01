@@ -11,7 +11,7 @@ public class Main {
 
         if (args.length < 1) {
             System.err.println("Please provide PostgreSQL JDBC URL as command line parameter.");
-            System.err.println("E.g. jdbc:postgresql://localhost/test?user=fred&password=secret");
+            System.err.println("E.g. dbc:postgresql://localhost/tester?user=tester&password=tester");
             System.exit(1);
         }
         String dbUrl = args[0];
