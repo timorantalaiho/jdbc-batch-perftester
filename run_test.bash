@@ -5,7 +5,7 @@ set -eo pipefail
 JAVA=java
 JAVAC=javac
 
-JDBC_URL="jdbc:postgresql://localhost/tester?user=tester&password=tester"
+JDBC_URL="jdbc:postgresql://localhost/test?user=test&password=password"
 if [ -z $1 ]; then
   echo "JDBC URL not provideded, using the default of \"$JDBC_URL\""
 else

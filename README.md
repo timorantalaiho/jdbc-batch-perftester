@@ -10,7 +10,7 @@ The time taken on my machine is consistently slower with the newer version
 
 ```
 $ ./run_test.bash 
-JDBC URL not provideded, using the default of "jdbc:postgresql://localhost/tester?user=tester&password=tester"
+JDBC URL not provideded, using the default of "jdbc:postgresql://localhost/test?user=test&password=password"
 ******************* JDBC Batch insert performance tester *******************
 
 Compiling with javac ./src/Main.java -d ./classes
